@@ -282,8 +282,6 @@ P2SH: Pay-To-Script-Hash，前缀为0x05
 核心概念主要有两个：RSMC(Recoverable Sequence Marturity Contract) 和 HTLC(Hashed Timelock Contract), 前者解决链下交易的确认问题，后者解决了支付通道的问题。
 
 
-
-
 侧链
 侧链（sidechain）协议允许资产在比特币区块和其它区块链之前互转。
 
@@ -363,19 +361,19 @@ Gas, 控制某个交易执行指令的上限。每执行一条合约指令会消
 ## 相关工具
 
 客户端和开发库
-go-ethereum：Go 语言实现；
-Parity：Rust 语言实现；
-cpp-ethereum：C++ 语言实现；
-ethereumjs-lib：javascript 语言实现；
-Ethereum(J)：Java 语言实现；
-ethereumH：Haskell 语言实现；
-pyethapp：Python 语言实现；
-ruby-ethereum：Ruby 语言实现。
+- go-ethereum：Go 语言实现；
+- Parity：Rust 语言实现；
+- cpp-ethereum：C++ 语言实现；
+- ethereumjs-lib：javascript 语言实现；
+- Ethereum(J)：Java 语言实现；
+- ethereumH：Haskell 语言实现；
+- pyethapp：Python 语言实现；
+- ruby-ethereum：Ruby 语言实现。
 
 IDE:
-Truffle：一个功能丰富的以太坊应用开发环境。
-Embark：一个 DApp 开发框架，支持集成以太坊、IPFS 等。
-Remix：一个用于编写 Solidity，Vyper 的 IDE，内置调试器和测试环境。
+- Truffle：一个功能丰富的以太坊应用开发环境。
+- Embark：一个 DApp 开发框架，支持集成以太坊、IPFS 等。
+- Remix：一个用于编写 Solidity，Vyper 的 IDE，内置调试器和测试环境。
 
 ## 其它
 DAO：Decentralized Autonomous Organization，分散管理的自治组织，基于区块链的按照智能合约联系起来的松散自治群体
